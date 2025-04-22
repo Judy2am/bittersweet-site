@@ -4,11 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bittersweet by Design</title>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&family=Secular+One&display=swap" rel="stylesheet">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
     body {
       background-color: #fffdf7;
-      font-family: 'Quicksand', sans-serif;
+      font-family: Arial, sans-serif;
       color: #333;
       margin: 0;
       padding: 0;
@@ -20,16 +21,17 @@
     h1 {
       font-family: 'Secular One', sans-serif;
       font-size: 36px;
-      color: #444444cc;
+      font-weight: 400;
+      color: #444444CC;
+      font-style: italic;
       margin-bottom: 10px;
     }
     .tagline {
-      font-family: 'Quicksand', sans-serif;
+      font-family: sans-serif;
       font-size: 18px;
-      font-style: normal;
-      font-weight: 600;
+      font-weight: bold;
+      font-style: italic;
       color: #F5149B80;
-      margin-bottom: 40px;
     }
     .section {
       padding: 40px 20px;
@@ -39,27 +41,12 @@
       height: auto;
       margin-bottom: 15px;
     }
-    .quote-image, .footer-image {
-      width: 80vw;
-      max-width: 620px;
-      height: auto;
-      margin: 40px auto;
-    }
     .divider {
       margin: 40px auto;
       width: 80px;
       height: 4px;
       background-color: #ffdada;
       border-radius: 2px;
-    }
-    .absurd-copy {
-      font-size: 16px;
-      font-style: italic;
-      color: #444;
-      max-width: 680px;
-      margin: 0 auto 40px;
-      line-height: 1.7;
-      white-space: pre-line;
     }
     .button {
       display: inline-block;
@@ -71,11 +58,28 @@
       border-radius: 8px;
       font-weight: bold;
     }
-    footer {
-      padding: 40px 20px;
-      font-size: 14px;
-      color: #666;
-      background-color: #faf9f5;
+    .quote-block {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #444;
+      margin: 30px auto;
+      padding: 0 30px;
+      white-space: pre-line;
+    }
+    .quote-block strong {
+      font-weight: bold;
+    }
+    .quote-img {
+      width: 340px;
+      max-width: 90%;
+      margin: 20px auto 30px;
+      display: block;
+    }
+    .footer-img {
+      width: 90%;
+      max-width: 480px;
+      margin: 40px auto 0;
+      display: block;
     }
   </style>
 </head>
@@ -95,23 +99,27 @@
     <img src="hollow_donuts.png" alt="Hollow Donuts" />
   </div>
 
-  <div class="section absurd-copy">
-    Absurdist comfort food for the mentally elsewhere.
-    Made for those who cry between bites and laugh between breakdowns.
-    From emotional pastries to sugar-laced despair, we’re here to remind you:
-    everything is a snack if you’re unwell enough.
+  <!-- 文案段子 -->
+  <div class="quote-block">
+    <strong>Absurdist comfort food for the mentally elsewhere.</strong><br />
+    Made for those who cry between bites and laugh between breakdowns.<br />
+    From emotional pastries to sugar-laced despair, we’re here to remind you:<br />
+    <strong>Everything is a snack if you’re unwell enough.</strong>
   </div>
 
+  <!-- Quote 图 -->
   <div class="section">
-    <img src="bittersweet_quote_fridge_scream.png" alt="Fridge Quote" class="quote-image" />
+    <img src="bittersweet_quote_fridge_scream.png" alt="Fridge quote" class="quote-img" />
   </div>
 
+  <!-- 按钮 -->
   <div class="section">
     <a class="button" href="https://www.instagram.com/bitterbysweet.ltd/" target="_blank">Follow on Instagram</a>
   </div>
 
+  <!-- Footer 图 -->
   <footer>
-    <img src="bittersweet_footer_wrapped.png" alt="Footer Info" class="footer-image" />
+    <img src="bittersweet_footer_wrapped.png" alt="Footer Info" class="footer-img" />
   </footer>
 </body>
 </html>
