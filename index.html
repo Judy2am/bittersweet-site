@@ -4,10 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bittersweet by Design</title>
+  <link href="https://fonts.googleapis.com/css2?family=Secular+One&family=Tsumiki+Rounded&family=New+Tegomin&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=New+Reader&display=swap');
-
     body {
       background-color: #fffdf7;
       font-family: Arial, sans-serif;
@@ -22,36 +20,51 @@
     h1 {
       font-family: 'Secular One', sans-serif;
       font-size: 36px;
-      font-weight: bold;
+      color: #444444cc;
       font-style: italic;
-      color: #444444CC;
       margin-bottom: 10px;
     }
     .tagline {
       font-family: 'Tsumiki Rounded', sans-serif;
       font-size: 18px;
       font-weight: bold;
-      font-style: italic;
       color: #F5149B80;
     }
     .section {
-      padding: 20px 20px;
+      padding: 20px 20px 10px;
     }
     .section img {
       max-width: 90%;
       height: auto;
-      margin-bottom: 10px;
+      margin-bottom: 5px;
     }
     .divider {
-      margin: 20px auto;
+      margin: 15px auto;
       width: 80px;
       height: 4px;
       background-color: #ffdada;
       border-radius: 2px;
     }
+    .absurdist {
+      font-family: 'New Tegomin', serif;
+      font-size: 20px;
+      line-height: 1.4;
+      color: #333;
+      margin: 20px auto 10px;
+      max-width: 90%;
+    }
+    .quote-text, .footer-text {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+      white-space: pre-line;
+      margin: 10px auto;
+      max-width: 90%;
+    }
     .button {
       display: inline-block;
-      margin-top: 30px;
+      margin: 10px auto;
       padding: 10px 20px;
       background-color: #ffdada;
       color: #333;
@@ -59,55 +72,43 @@
       border-radius: 8px;
       font-weight: bold;
     }
-    .absurd-text {
-      font-family: 'New Reader', serif;
-      font-size: 15px;
-      line-height: 1.6;
-      margin: 40px auto 30px;
-      width: 85%;
-      text-align: center;
-    }
-    .quote-img {
-      max-width: 85%;
-      height: auto;
-    }
-    .footer-img {
-      max-width: 85%;
-      height: auto;
-    }
     footer {
-      padding: 40px 20px;
+      padding: 20px 20px 30px;
       font-size: 14px;
       color: #666;
       background-color: #faf9f5;
+    }
+    .footer-bold {
+      font-weight: bold;
+      margin-bottom: 5px;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>𝑩𝒊𝒕𝒕𝒆𝒓𝒔𝒘𝒆𝒆𝒕 𝒃𝒚 𝑫𝒆𝒔𝒊𝒈𝒏</h1>
-    <div class="tagline">Existential carbs since 1999</div>
+    <div class="tagline">**Existential carbs since 1999**</div>
   </header>
 
   <div class="section">
     <img src="cake_for_nothing.png" alt="Cake for Nothing" />
     <div class="divider"></div>
-
     <img src="pudding_cigarette.png" alt="Pudding" />
     <div class="divider"></div>
-
     <img src="hollow_donuts.png" alt="Hollow Donuts" />
   </div>
 
-  <div class="absurd-text">
+  <div class="absurdist">
     <p><strong>Absurdist comfort food for the mentally elsewhere.</strong></p>
     <p>Made for those who cry between bites and laugh between breakdowns.</p>
     <p>From emotional pastries to sugar-laced despair, we’re here to remind you:</p>
     <p><strong>Everything is a snack if you’re unwell enough.</strong></p>
   </div>
 
-  <div class="section">
-    <img src="bittersweet_quote_fridge_scream.png" alt="We opened the fridge and screamed inside." class="quote-img" />
+  <div class="quote-text">
+    We opened the fridge and screamed inside.<br />
+    We've misplaced the will to bake.<br />
+    Please refresh your coping strategies.
   </div>
 
   <div class="section">
@@ -115,7 +116,13 @@
   </div>
 
   <footer>
-    <img src="bittersweet_footer_wrapped.png" alt="Footer Info" class="footer-img" />
+    <div class="footer-text">
+      <p class="footer-bold">Next batch baking soon.</p>
+      <p>IG: @bitterbysweet.ltd<br />
+      Email: orders@bittersweetmail.com<br />
+      Location: Unlisted.<br />
+      But our pastries find you wherever the craving hits.</p>
+    </div>
   </footer>
 </body>
 </html>
